@@ -1,4 +1,4 @@
-import { productsModel } from "../models/products.model.js"
+import { productsModel } from "../dao/models/products.model.js"
 import { getNextLink, getPrevLink } from "../helpers/linkPrevNext.js"
 
 export const productsFiltersController = async (req, res) => {

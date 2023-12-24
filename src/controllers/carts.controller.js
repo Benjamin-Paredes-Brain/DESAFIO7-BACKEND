@@ -1,5 +1,5 @@
-import { cartsModel } from "../models/carts.model.js"
-import { productsModel } from "../models/products.model.js"
+import { cartsModel } from "../dao/models/carts.model.js"
+import { productsModel } from "../dao/models/products.model.js"
 
 export const cartsIdController = async (req, res) => {
     try {
